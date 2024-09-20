@@ -9,9 +9,9 @@ Multiuser Profile Resume
  multiuser, portfolio, freelancer, photographer, artworks, art, artist portfolio, web designer, illustrators, designer, developers, programmers & coder. 
  
  Technologies used:
-
-    PHP CodeIgniter 3
-    HTML 5
-    CSS (Bootstrap 4)
-    JQUERY
-    AJAX
+ 
+ PHP CodeIgniter 3
+ HTML 5
+ CSS (Bootstrap 4)
+ JQUERY
+ AJAX
