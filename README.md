@@ -1,5 +1,5 @@
-# Multiuser-Profile-Resume
-Multiuser Profile Resume
+# phpmyProfile
+previoulsly Multiuser Profile Resume
 
 This is a multiuser profile, resume and vcard script. 
  
