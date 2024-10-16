@@ -25,8 +25,9 @@ if (isset($_POST["btn_purchase_code"])) {
 
     $_SESSION["purchase_code"] = $_POST['purchase_code'];
     $response = "";
+	header("Location: folder-permissions.php");						   
 
-    $url = "http://originlabsoft.com/api/license?purchase_code=" . $_POST['purchase_code'] . "&domain=" . $current_url;
+    // $url = "http://originlabsoft.com/api/license?purchase_code=" . $_POST['purchase_code'] . "&domain=" . $current_url;
 
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
