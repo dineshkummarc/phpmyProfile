@@ -54,7 +54,8 @@ if (isset($_POST["btn_purchase_code"])) {
         } else {
             $_SESSION["status"] = $data->status;
             $_SESSION["license_code"] = $data->license_code;
-            header("Location: folder-permissions.php");
+            // header("Location: folder-permissions.php");
+			$_SESSION["license"] = $data->license;					 
             exit();
         }
     } else {
