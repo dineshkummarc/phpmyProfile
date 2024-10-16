@@ -34,7 +34,7 @@ if (isset($_POST["btn_purchase_code"])) {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $response = curl_exec($ch);
     curl_close($ch);
-
+/*
     if (empty($response)) {
         $url = "http://originlabsoft.com/api/license?purchase_code=" . $_POST['purchase_code'] . "&domain=" . $current_url;
 
@@ -44,7 +44,7 @@ if (isset($_POST["btn_purchase_code"])) {
         $response = curl_exec($ch);
         curl_close($ch);
     }
-
+*/
     $data = json_decode($response);
 
     if (!empty($data)) {
