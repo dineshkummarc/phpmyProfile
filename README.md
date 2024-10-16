@@ -1,7 +1,7 @@
 # phpmyProfile
 previoulsly Multiuser Profile Resume
 
-This is a multiuser profile, resume and vcard script. 
+## This is a multiuser profile, resume and vcard script.
  
 It comes with clean, secured, responsive, SEO friendly & eye-catching design which will attract your future employer with the first impression. 
 You can easily add your Services, Experiences, Skills, Portfolios & Blogs without any coding skills. 
