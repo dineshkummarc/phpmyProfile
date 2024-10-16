@@ -8,7 +8,7 @@ You can easily add your Services, Experiences, Skills, Portfolios & Blogs withou
 This script is perfect to promote yourself and your business, focused for: 
 multiuser, portfolio, freelancer, photographer, artworks, art, artist portfolio, web designer, illustrators, designer, developers, programmers & coder. 
  
-Technologies used:
+### Technologies used:
  
 PHP CodeIgniter 3
 HTML 5
