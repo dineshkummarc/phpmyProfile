@@ -1,6 +1,9 @@
 <?php
 session_start();
-
+$_SESSION['status'] = 'success';
+$_SESSION["license_code"] = 'Regular License';
+$_SESSION["license"] = '1';						  
+									   
 if (!function_exists('curl_init')) {
     die('cURL is not available on your server! Please enable cURL to continue the installation. You can read the documentation for more information.');
 }
