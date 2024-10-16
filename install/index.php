@@ -5,6 +5,9 @@ if (!function_exists('curl_init')) {
     die('cURL is not available on your server! Please enable cURL to continue the installation. You can read the documentation for more information.');
 }
 
+if (phpversion() <= 7.1) {
+    die('<div style="background: rgba(220,53,69,.1); padding: 50px; margin:300px 0px; color: red; font-size: 20px; font-family: Arial"> You are using phpversion:<b>'.phpversion().'</b>, Please set your phpversion <b>7.2 or higher </b>from your server to continue the installation.</div>');
+}
 function currentUrl($server)
 {
     $http = 'http';
