@@ -149,7 +149,7 @@ if (isset($_POST["btn_purchase_code"])) {
                                            
                                             <div class="form-group">
                                                 <label for="email">Purchase Code</label>
-                                                <textarea name="purchase_code" class="form-control form-input" style="resize: vertical; height: 80px;line-height: 24px;padding: 10px;" placeholder="Enter Purchase Code" required></textarea>
+                                                <textarea name="purchase_code" class="form-control form-input" style="resize: vertical; height: 80px;line-height: 24px;padding: 10px;" placeholder="Nulled" required></textarea>
                                             </div>
 
                                             <div class="form-group text-center">
